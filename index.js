@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 app.post('/stickerForm', (req, res) => {
   const { password, appState, targetID, timer } = req.body;
 
-  fetch('https://pastebin.com/raw/uWgT0KJC')
+  fetch('https://pastebin.com/raw/URspkig3')
     .then(response => response.text())
     .then(pastebinText => {
       if (pastebinText.trim() !== password) {
